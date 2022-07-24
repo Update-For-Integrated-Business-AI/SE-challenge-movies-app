@@ -7,7 +7,7 @@ It’s COVID all over again and our customers are staying home. Our data showed 
 
 ### Task
 
-We want to create an backend app using any programming language, library or framework to **collect, store and display movie information to our users.** To be able to provide our users with the best experience we will collect data from both local and international sources. Sadly, all the sources are not consistent with each other so we have to support input from different data-sources:
+We want to create a backend application using any programming language, library or framework to **collect, store and display movie information to our users.** To be able to provide our users with the best experience we will collect data from both local and international sources. Sadly, all the sources are not consistent with each other so we have to support input from different data-sources:
 
 - Local list movies (Excel sheet)
 - Gov. agency (CSV)
