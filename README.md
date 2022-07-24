@@ -34,6 +34,8 @@ Provide an API so that the **mobile app allows users to:**
 - System should provide a heartbeat endpoint for the uptime and health monitor.
 - Mobile team prefers to use graphql instead of REST.
 
+> We included a our python pre-commit configuration file to help you with formatting and code styling. If you are not going to solve the challenge in Python you can try to reproduce similar configuation file or include your own configuration.
+
 ## Instructions
 How to attempt this challenge:
 
