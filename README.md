@@ -14,7 +14,7 @@ We want to create an backend app using any programming language, library or fram
 - IMDB API (API 🤷)
 - Netflix Top 10 (API)
 
-_A local TV producer has a great list of movies but they are in HTML so we have plans to support HTML but this will be in a later stage._
+> A local TV producer has a great list of movies but they are in HTML so we have plans to support HTML but this will be in a later stage.
 
 To display the data correctly to the user we should make sure that we store the data such that:
 
@@ -31,7 +31,7 @@ Provide an API so that the **mobile app allows users to:**
 **Bonus:**
 
 - We want to store versions of movies from datasources to be able to provide historical data in the future (like rating/popularity) change overtime.
-- System should provide a heartbeat endpoint for the uptime monitor.
+- System should provide a heartbeat endpoint for the uptime and health monitor.
 - Mobile team prefers to use graphql instead of REST.
 
 ## Instructions
