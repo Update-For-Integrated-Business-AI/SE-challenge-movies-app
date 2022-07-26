@@ -9,17 +9,17 @@ It’s COVID all over again and our customers are staying home. Our data showed 
 
 We want to create a backend application using any programming language, library or framework to **collect, store and display movie information to our users.** To be able to provide our users with the best experience we will collect data from both local and international sources. Sadly, all the sources are not consistent with each other so we have to support input from different data-sources:
 
-- Local list movies (Excel sheet)
-- Gov. agency (CSV)
-- IMDB API (API 🤷)
-- Netflix Top 10 (API)
+- The Movie Database: Top Rated Movies [[API](https://developers.themoviedb.org/3/movies/get-top-rated-movies)]
+- Local Agency dataset [[CSV](datasets/movie-dataset-latest.csv)]
+- IMDB API Top 250: Movies & TV [[API](https://imdb-api.com/api)]
+- Netflix dataset [[Excel Sheet](datasets/NetflixDataset.xlsx)]
 
 > A local TV producer has a great list of movies but they are in HTML so we have plans to support HTML but this will be in a later stage.
 
 To display the data correctly to the user we should make sure that we store the data such that:
 
 - There are no duplicated movies in the database.
-- We can retrieve which data-sources we collected movies from.
+- We store which data-sources we collected which movies from.
 
 Provide an API so that the **mobile app allows users to:**
 
